@@ -1,0 +1,84 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+a:focus { outline: 0 solid }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding-top: 80px;
+}
+
+.section-detail {
+    text-align:  center;
+}
+
+.section-detail h2 {
+    text-transform:  uppercase;
+    margin-bottom: 30px;
+}
+
+.section-detail p {
+    font-size:  16px;
+    line-height:  2;
+    margin-bottom:  50px;
+}
+
+strong.percentis {
+    position:  absolute;
+    left: 38%;
+    top: 50%;
+    line-height: 0px;
+    font-size: 50px;
+    margin-top:  -11px;
+}
+
+.progresbar {
+    text-align:  center;
+}
+
+.progrec-cercle h3 {
+    text-align:  center;
+    text-transform:  uppercase;
+    color: #dc4c40;
+}
+
+div#progres-productone {
+    margin-bottom:  30px;
+}
+
+div#progres-producttwo {
+    margin-bottom:  30px;
+}
+
+div#progres-productthree {
+    margin-bottom:  30px;
+}
